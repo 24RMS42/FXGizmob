@@ -1,0 +1,160 @@
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_screen_background"
+    android:orientation="vertical">
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+	    <ImageView
+	        android:id="@+id/title_bar"
+	        android:layout_width="100dp"
+	        android:layout_height="50dp"
+	        android:background="@drawable/title_dashboard"
+	        android:scaleType="fitXY"
+	        android:layout_alignParentEnd="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+    
+	<AbsoluteLayout 	
+	    android:id="@+id/landing_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+		android:layout_weight="3" >	
+		<ImageView 
+		    android:id="@+id/gear_background"
+		    android:layout_width="330dp"
+		    android:layout_height="259dp"
+		    android:scaleType="fitXY"
+		    android:layout_x="5dp"
+		    android:layout_y="20dp"
+		    android:background="@drawable/gear_dashboard"/>	
+
+	   	<ImageButton
+	   	    android:id="@+id/btn_markettiming"
+	   	    android:layout_width="160dp"
+	   	    android:layout_height="160dp"
+	   	    android:layout_x="36dp"
+	   	    android:layout_y="52dp"
+	   	    android:background="@drawable/forex_market" />
+
+	   	<ImageButton
+	   	    android:id="@+id/btn_pretradinginfo"
+	   	    android:layout_width="130dp"
+	   	    android:layout_height="130dp"
+	   	    android:layout_x="185dp"
+	   	    android:layout_y="26dp"
+	   	    android:background="@drawable/premium_info" />
+
+	   	<ImageButton
+	   	    android:id="@+id/btn_liveforexrating"
+	   	    android:layout_width="80dp"
+	   	    android:layout_height="80dp"
+	   	    android:layout_x="137dp"
+	   	    android:layout_y="188dp"
+	   	    android:background="@drawable/live_rating" />
+
+	   	<ImageButton
+	   	    android:id="@+id/btn_economic_calendar"
+	   	    android:layout_width="120dp"
+	   	    android:layout_height="120dp"
+	   	    android:layout_x="212dp"
+	   	    android:layout_y="155dp"
+	   	    android:background="@drawable/economic_calendar" />
+
+	</AbsoluteLayout>
+	 
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="50dp"
+        android:paddingRight="10dp">
+	    <Button
+	        android:id="@+id/btn_out"
+	        android:layout_width="180dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/out_button"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true" />        
+    </RelativeLayout>
+</LinearLayout>
+<!-- 
+    <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/landing_color">
+  		<ImageView 
+  		    android:id="@+id/img_logo"
+  		    android:layout_width="match_parent"
+  		    android:layout_height="90dp"
+  		    android:background="@drawable/app_logo"
+  		    android:layout_marginTop="5dp"
+  		    android:layout_marginBottom="5dp"/>
+        <ImageButton 
+            android:id="@+id/btn_liveforexrating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_logo"
+            android:background="@drawable/bg_liveforexrate"
+            android:layout_marginTop="5dp"/>
+		<ImageButton 
+            android:id="@+id/btn_economic_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_liveforexrating"
+            android:background="@drawable/bg_calendar"
+            android:layout_marginTop="5dp"/>
+       	<ImageButton 
+            android:id="@+id/btn_pretradinginfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_economic_calendar"
+            android:background="@drawable/bg_pretradinginfo"
+            android:layout_marginTop="5dp"/>
+		<ImageButton 
+            android:id="@+id/btn_markettiming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_pretradinginfo"
+            android:background="@drawable/bg_forextimes"
+            android:layout_marginTop="5dp"/>
+       	<ImageButton 
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_markettiming"
+            android:background="@drawable/bg_logout"
+            android:layout_marginTop="5dp"/>        
+    </RelativeLayout>
+     
+    <RelativeLayout 
+        android:id="@+id/land_page"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center">
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/app_logo"/>
+    </RelativeLayout>
+    	   	<ImageButton
+	   	    android:id="@+id/btn_out"
+	   	    android:layout_width="100dp"
+	   	    android:layout_height="100dp"
+	   	    android:layout_x="0dp"
+	   	    android:layout_y="492dp"
+	   	    android:background="@drawable/logout_button" />
+ -->

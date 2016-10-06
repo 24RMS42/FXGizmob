@@ -1,0 +1,202 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fxgizmob.MainActivity$PlaceholderFragment" >
+    <AbsoluteLayout 
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+        <ImageView
+            android:id="@+id/image_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/world_map" />
+
+        <ImageButton
+            android:id="@+id/btn_tokyo"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_x="485dp"
+            android:layout_y="92dp"
+            android:background="@drawable/flag_close_tokyo" />
+        
+
+         <ImageButton
+            android:id="@+id/btn_sydney"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_x="507dp"
+            android:layout_y="188dp"
+            android:background="@drawable/flag_close_sydney" />
+         
+<!--  		<ImageButton
+            android:id="@+id/btn_sydney"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/btn_location" /> -->
+        
+         <ImageButton
+             android:id="@+id/btn_frankfurt"
+             android:layout_width="12dp"
+             android:layout_height="12dp"
+             android:layout_x="284dp"
+             android:layout_y="71dp"
+             android:background="@drawable/flag_close_frankfurt" />
+
+          <ImageButton
+              android:id="@+id/btn_london"
+              android:layout_width="12dp"
+              android:layout_height="12dp"
+              android:layout_x="261dp"
+              android:layout_y="64dp"
+              android:background="@drawable/flag_close_london" />
+
+            <ImageButton
+                android:id="@+id/btn_hongkong"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_x="439dp"
+                android:layout_y="120dp"
+                android:background="@drawable/flag_close_hongkong" />
+
+            <ImageButton
+                android:id="@+id/btn_shanghai"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_x="461dp"
+                android:layout_y="106dp"
+                android:background="@drawable/flag_close_shanghai" />
+
+           	<ImageButton
+           	    android:id="@+id/btn_dubai"
+           	    android:layout_width="12dp"
+           	    android:layout_height="12dp"
+           	    android:layout_x="361dp"
+           	    android:layout_y="107dp"
+           	    android:background="@drawable/flag_close_dubai" />
+
+			<ImageButton
+			    android:id="@+id/btn_moscow"
+			    android:layout_width="12dp"
+			    android:layout_height="12dp"
+			    android:layout_x="337dp"
+			    android:layout_y="56dp"
+			    android:background="@drawable/flag_close_moscow" />
+
+			<ImageButton
+			    android:id="@+id/btn_johannesburg"
+			    android:layout_width="12dp"
+			    android:layout_height="12dp"
+			    android:layout_x="313dp"
+			    android:layout_y="162dp"
+			    android:background="@drawable/flag_close_johannesburg" />
+
+			<ImageButton
+			    android:id="@+id/btn_toronto"
+			    android:layout_width="12dp"
+			    android:layout_height="12dp"
+			    android:layout_x="145dp"
+			    android:layout_y="75dp"
+			    android:background="@drawable/flag_close_toronto" />
+
+			<ImageButton
+			    android:id="@+id/btn_newyork"
+			    android:layout_width="12dp"
+			    android:layout_height="12dp"
+			    android:layout_x="154dp"
+			    android:layout_y="82dp"
+			    android:background="@drawable/flag_close_newyork" />
+
+			<ImageButton
+			    android:id="@+id/btn_wellington"
+			    android:layout_width="12dp"
+			    android:layout_height="12dp"
+			    android:layout_x="545dp"
+			    android:layout_y="199dp"
+			    android:background="@drawable/flag_close_wellington" />
+          
+    </AbsoluteLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1" 
+	    android:orientation="horizontal"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingBottom="5dp"
+	    android:paddingTop="5dp"
+	    android:baselineAligned="false"
+	    android:background="@color/bottom_bar">	    
+	    <LinearLayout 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:layout_weight="5"
+	        android:background="@drawable/background"
+	        android:layout_marginRight="5dp">
+	        
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/background"
+	        android:layout_marginLeft="5dp"
+	        android:orientation="vertical">
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/maket_open"
+	            android:textColor="#ffffff"/>
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:layout_marginBottom="10dp"
+	            android:orientation="horizontal">
+
+	            <TextView
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="3"
+	                android:gravity="center"
+	                android:text="11 : 38"
+	                android:textSize="16sp"
+	                android:textColor="#ffffff" />
+
+	            <LinearLayout 
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"	         
+	                android:orientation="vertical">
+	                <TextView 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight="1"
+	                    android:gravity="center"
+	                 	android:text="@string/am" 
+	                 	android:textSize="8sp"
+	                 	android:textColor="@color/text_color"
+	                 	android:layout_marginRight="5dp" />
+					<TextView 
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_weight="1"
+	                    android:gravity="center"
+	                    android:text="@string/mon"
+	                    android:textSize="8sp"
+	                    android:textColor="@color/text_color" 
+	                    android:layout_marginRight="5dp"/>	                	             
+	            </LinearLayout>
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

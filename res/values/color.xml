@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="text_color">#FFFFFF</color>
+    <color name="text_open">#11EAFE</color>
+    <color name="text_hint_color">#e1e1e1</color>
+    <color name="text_close">#ff4141</color>
+       
+    <color name="back_color">#8B8B8B</color>
+    <color name="background_color">#777777</color>
+    
+    <color name="black_color">#000000</color>
+    <color name="landing_color">#5e5e5e</color>
+    
+    <color name="bottom_bar">#007dc5</color>
+    <color name="timeline_bar">#00bbff</color>
+    
+    <color name="boundary_color">#007dc5</color>
+</resources>

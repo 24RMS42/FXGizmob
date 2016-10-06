@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FXGizmo Box</string>
+<!--     
+    <string name="parse_appid">JU1jh1tJjmQTYRPuBgEu6GC9xVEVPDUJEU2gvI3S</string>
+    <string name="parse_clientkey">E2ZmR0BV9crN8uGgiiDFd9kYUKggHW4BOuBalxur</string>
+-->
+    <string name="parse_appid">nkqOizMOtbISX2sL6FnRvP0l3izvn4QjtLNnehbz</string>
+    <string name="parse_clientkey">1hLUKCpL1yq4LkbQzGfStiQNSti4o9DoFtICC2GR</string>
+
+    <string name="title_liverating">Live Forex Rating</string>
+    <string name="title_fxmarkettiming">Forex Market Time</string>
+    <string name="title_economic_calendar">Economic Calendar</string>
+    <string name="title_logout">Log Out</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="progress_wait">Please Wait A Sec</string>
+    <string name="internet_speed_low">Loading is too slow, Please check internet connection</string>
+    
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+    
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    
+    <string name="maket_open">Market: Open</string>
+    
+    <string name="city_newyork">NEW YORK</string>
+    <string name="city_sydney">SYDNEY</string>
+    <string name="city_hongkong">HONG KONG</string>
+    <string name="city_tokyo">TOKYO</string>
+    <string name="city_shanghai">SHANGHAI</string>
+    <string name="city_toronto">TORONTO</string>
+    <string name="city_london">LONDON</string>
+    <string name="city_frankfurt">FRANKFURT</string>
+    <string name="city_wellington">WELLINGTON</string>
+    <string name="city_moscow">MOSCOW</string>
+    <string name="city_dubai">DUBAI</string>
+    <string name="city_johannesburg">JOHANNESBURG</string>
+    
+    
+    <string name="hint_register_email">Email *</string>
+    <string name="hint_register_password">Password *</string>
+    <string name="hint_register_confirmpassword">Confirm Password *</string>
+    <string name="hint_login_password">Password</string>
+    <string name="hint_login_username">Username</string>
+    
+    
+    <string name="password_nomatch">Password doesn\'t match</string>
+    <string name="password_cannot_be_empty">Password Must Be More Than 8 Letters</string>
+    <string name="create_account">Create Account</string>  	
+  	<string name="success_register">Your Account Registered Successfully.</string>
+  	<string name="success_post">Your Item Posted Successfully.</string>
+  	<string name="success_login">Logged In Successfully.</string>
+  	<string name="failed_register">Registration Failed. </string>
+  	<string name="failed_login">Login Failed. </string>
+    
+    <string name="txt_register">Register</string>
+    <string name="txt_cancel">Cancel</string>
+    
+    <string name="amount">Amount</string>
+    <string name="take_order">Take Order</string>
+    <string name="take_notificatoin">See notification</string>
+    
+</resources>

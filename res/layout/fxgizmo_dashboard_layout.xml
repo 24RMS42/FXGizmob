@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_background"
+    android:orientation="vertical" >    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1.46">
+	    <ImageView
+	        android:id="@+id/title_bar"
+	        android:layout_width="120dp"
+	        android:layout_height="50dp"
+	        android:background="@drawable/title_dashboard"
+	        android:scaleType="fitXY"
+	        android:layout_alignParentEnd="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.54"
+        android:orientation="vertical">
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal">
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.7">
+	            
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.3"
+	            android:paddingLeft="4dp"
+	            android:paddingTop="10dp"
+	            android:paddingRight="4dp"
+	            android:paddingBottom="10dp">
+	            <ImageView 
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="@drawable/icon_dashboard"
+		            android:scaleType="fitXY" />
+	        </LinearLayout>
+	        <ImageButton 
+	            android:id="@+id/btn_dashboard"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/btn_dashboard"
+	            android:layout_marginLeft="9dp"
+	            android:layout_weight="2.1"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.7">
+	            
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.3"
+	            android:paddingLeft="4dp"
+	            android:paddingTop="10dp"
+	            android:paddingRight="4dp"
+	            android:paddingBottom="10dp">
+	            <ImageView 
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="@drawable/icon_setting"
+		            android:scaleType="fitXY" />
+	        </LinearLayout>
+	        <ImageButton 
+	            android:id="@+id/btn_setting"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/btn_setting"
+	            android:layout_marginLeft="9dp"
+	            android:layout_weight="2.1"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.7">
+	            
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.3"
+	            android:paddingLeft="4dp"
+	            android:paddingTop="10dp"
+	            android:paddingRight="4dp"
+	            android:paddingBottom="10dp">
+	            <ImageView 
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="@drawable/icon_share"
+		            android:scaleType="fitXY" />
+	        </LinearLayout>
+	        <ImageButton 
+	            android:id="@+id/btn_share"
+	            android:layout_width="0dp"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/btn_share"
+	            android:layout_marginLeft="9dp"
+	            android:layout_weight="2.1"/>	        
+	    </LinearLayout>
+	    	    	    
+        
+    </LinearLayout>
+</LinearLayout>

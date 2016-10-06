@@ -1,0 +1,117 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="EditText">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHint">@color/text_hint_color</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+<!-- 
+    <style name="ButtonLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/field_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/field_margin_right</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+-->
+    <style name="EditText.Login_Email_field">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:hint">@string/hint_login_username</item>
+    </style>
+
+    <style name="EditText.Login_Password_field">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:hint">@string/hint_login_password</item>
+    </style>
+    
+    <style name="EditText.Register_Email_field">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:hint">@string/hint_register_email</item>
+    </style>
+
+    <style name="EditText.Register_Password_field">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:hint">@string/hint_register_password</item>
+    </style>
+    
+    <style name="EditText.Register_ConfirmPassword_field">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:hint">@string/hint_register_confirmpassword</item>
+    </style>
+<!--     
+    <style name="ButtonLogin.Sign_in">
+        <item name="android:layout_marginLeft">@dimen/field_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/field_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/scale_20dp</item>
+        <item name="android:paddingBottom">@dimen/scale_10dp</item>
+        <item name="android:paddingLeft">@dimen/scale_15dp</item>
+        <item name="android:paddingRight">@dimen/scale_15dp</item>
+        <item name="android:paddingTop">@dimen/scale_10dp</item>
+        <item name="android:background">@drawable/green_btn_selector</item>
+        <item name="android:text">@string/lbl_sign_in</item>
+        <item name="android:textSize">@dimen/login_textsize</item>
+    </style>
+
+
+    <style name="ButtonLogin.Sign_up">
+        <item name="android:layout_marginLeft">@dimen/field_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/field_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/scale_20dp</item>
+        <item name="android:paddingBottom">@dimen/scale_10dp</item>
+        <item name="android:paddingLeft">@dimen/scale_15dp</item>
+        <item name="android:paddingRight">@dimen/scale_15dp</item>
+        <item name="android:paddingTop">@dimen/scale_10dp</item>
+        <item name="android:background">@drawable/green_btn_selector</item>
+        <item name="android:text">@string/lbl_sign_up</item>
+        <item name="android:textSize">@dimen/login_textsize</item>
+    </style>
+
+    <style name="ButtonLogin.ButtonGooglePlus">
+        <item name="android:layout_width">@dimen/scale_150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/scale_20dp</item>
+    </style>
+
+    <style name="TextViewLogin.New_account">
+        <item name="android:text">@string/lbl_create_new_account</item>
+        <item name="android:paddingBottom">@dimen/scale_10dp</item>
+        <item name="android:paddingLeft">@dimen/scale_15dp</item>
+        <item name="android:paddingRight">@dimen/scale_15dp</item>
+        <item name="android:paddingTop">@dimen/scale_10dp</item>
+        <item name="android:layout_gravity">bottom|right</item>
+    </style>
+
+    <style name="TextViewLogin.Forgot_password">
+        <item name="android:text">@string/lbl_forgot_password</item>
+        <item name="android:paddingBottom">@dimen/scale_10dp</item>
+        <item name="android:paddingLeft">@dimen/scale_15dp</item>
+        <item name="android:paddingRight">@dimen/scale_15dp</item>
+        <item name="android:paddingTop">@dimen/scale_10dp</item>
+        <item name="android:layout_gravity">bottom|left</item>
+    </style>
+ -->
+</resources>
